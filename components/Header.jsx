@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="cointainer mx-auto flex justify-between items-center">
         <Link href="/">
           <h1 className="text-2xl xl:text-4xl font-semibold cursor-pointer">
-            Protfolio<span className="text-accent">.</span>
+            Portfolio<span className="text-accent">.</span>
           </h1>
         </Link>
         <div className="hidden xl:flex items-center gap-8">
