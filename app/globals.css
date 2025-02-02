@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1c1c22;
+  --secondary-color: #00ff99;
+  --hover-color: #00e187; 
+  --base-font-size: 16px;
+  --font-jetbrainsMono: 'JetBrains Mono', monospace; 
+}
+
+@layer base {
+  body {
+    font-family: var(--font-jetbrainsMono);
+    background-color: var(--primary-color);
+    color: white;
+    font-size: var(--base-font-size);
+  }
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.text-secondary-foreground {
+  color: #fff; 
+}
+
+.hover\:bg-secondary\/80:hover {
+  background-color: #00cc7a; 
+}
