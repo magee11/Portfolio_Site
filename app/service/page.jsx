@@ -7,7 +7,7 @@ const service = [
     num: "01",
     title: "Frontend Engineering",
     description:
-      "Frontend Engineer with 4 years of experience building scalable, production-ready web applications using React.js, Next.js, TypeScript, Redux, and Tailwind CSS. Skilled in reusable component design, SSR, Micro Frontends, and performance optimization, including cutting LCP from 30s to 2.5s.",
+      "Senior Software Engineer with 4 years of experience building scalable, production-ready web applications using React.js, Next.js, TypeScript, Redux, and Tailwind CSS. Skilled in reusable component design, SSR, Micro Frontends, and performance optimization, including cutting LCP from 30s to 2.5s.",
     icon: <FaReact />,
   },
   {

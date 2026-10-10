@@ -60,12 +60,6 @@ export const experience = [
     duration: "May 2026 – Present",
     location: "Bengaluru, Karnataka",
     current: true,
-    points: [
-      "Developed 3+ frontend features for Unilever enterprise applications using React.js, TypeScript, JavaScript, HTML5, CSS3, and REST APIs.",
-      "Engineered 20+ reusable React components and 10+ custom hooks, reducing code duplication and improving reusability and maintainability.",
-      "Partnered with product owners, designers, backend engineers, and QA teams across 10+ Agile sprints to deliver production-ready features with high code quality.",
-    ],
-    stack: ["React.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "REST APIs"],
   },
   {
     role: "Application Developer",
@@ -73,13 +67,6 @@ export const experience = [
     logo: "/images/companies/divum.png",
     duration: "June 2023 – April 2026",
     location: "Bengaluru, Karnataka",
-    points: [
-      "Delivered end-to-end fullstack features for Amazon SmartBiz, a large-scale e-commerce platform serving thousands of sellers.",
-      "Migrated a client-side rendered application to Server-Side Rendering (SSR), reducing Largest Contentful Paint from 30s to 2.5s and significantly improving SEO.",
-      "Implemented production-grade features for Biryani By Kilo including Wallets, Offers, Search, Orders, Maps, and payment integrations using React.js, Node.js, and Mappls APIs.",
-      "Boosted SEO score by 80%, resulting in a 50% increase in organic traffic while optimizing application performance.",
-    ],
-    stack: ["React.js", "Next.js", "Node.js", "SSR", "MobX", "React Query", "Redux", "AWS", "SEO"],
   },
   {
     role: "Application Developer Intern",
@@ -87,13 +74,6 @@ export const experience = [
     logo: "/images/companies/divum.png",
     duration: "July 2022 – May 2023",
     location: "Bengaluru, Karnataka",
-    points: [
-      "Crafted responsive, production-ready UI components for the Aditya Birla e-commerce platform using React.js, JavaScript, HTML5, CSS3, and SCSS.",
-      "Optimized Node.js middleware to improve API performance, reliability, and backend integration.",
-      "Supported frontend, backend, QA, and product teams in an Agile environment following Git-based workflows.",
-      "Gained hands-on experience in end-to-end product development, debugging, code reviews, and production deployments.",
-    ],
-    stack: ["React.js", "JavaScript", "HTML5", "CSS3", "SCSS", "Node.js", "Git"],
   },
 ];
 
@@ -190,11 +170,11 @@ export const skillGroups = [
 ];
 
 export const aboutSummary =
-  "Frontend Engineer from Bengaluru who enjoys turning complex requirements into fast, reliable, and well-crafted web experiences.";
+  "Senior Software Engineer from Bengaluru who enjoys turning complex requirements into fast, reliable, and well-crafted web experiences.";
 
 export const aboutInfo = [
   { label: "Name", value: "Magesh A", icon: <FaUser /> },
-  { label: "Role", value: "Frontend Engineer", icon: <FaUserTie /> },
+  { label: "Role", value: "Senior Software Engineer", icon: <FaUserTie /> },
   { label: "Experience", value: "4 years", icon: <FaBriefcase /> },
   { label: "Location", value: "Bengaluru, Karnataka", icon: <FaMapMarkerAlt /> },
   { label: "Email", value: "mageshmarch@gmail.com", href: "mailto:mageshmarch@gmail.com", icon: <FaEnvelope /> },
@@ -202,7 +182,7 @@ export const aboutInfo = [
 ];
 
 export const aboutBio = [
-  "I'm a Frontend Engineer with 4 years of experience building scalable web applications with React.js, Next.js, TypeScript, and Node.js — from enterprise applications at Accenture to large-scale e-commerce platforms like Amazon SmartBiz.",
+  "I'm a Senior Software Engineer with 4 years of experience building scalable web applications with React.js, Next.js, TypeScript, and Node.js — from enterprise applications at Accenture to large-scale e-commerce platforms like Amazon SmartBiz.",
   "I care deeply about performance and user experience: migrating an app to server-side rendering cut its Largest Contentful Paint from 30s to 2.5s, and SEO work lifted organic traffic by 50%.",
   "I'm continuously exploring AI-native engineering — LLM workflows, MCP, prompt engineering, AI agent orchestration, and AI-assisted development with Claude, Cursor, ChatGPT, Gemini, and GitHub Copilot.",
 ];

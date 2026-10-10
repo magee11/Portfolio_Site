@@ -25,9 +25,9 @@ export default function Home() {
             </span>
             <br />
             <br />
-            <span className="text-2xl">Frontend Engineer</span>
+            <span className="text-2xl">Senior Software Engineer</span>
             <p className="text-[12px] xl:text-[14px] max-w-[500px] text-white/80 mb-9 mt-2">
-              Frontend Engineer with 4 years of experience building scalable
+              Senior Software Engineer with 4 years of experience building scalable
               web applications using React.js, Next.js, TypeScript, Node.js,
               Python, and AWS. Experienced in designing production-ready
               applications, optimizing performance, and delivering end-to-end

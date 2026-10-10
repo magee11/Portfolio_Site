@@ -1,6 +1,5 @@
 import SectionHeader from "./SectionHeader";
 import Image from "next/image";
-import TechPill from "./TechPill";
 import { Timeline, TimelineItem } from "./Timeline";
 import { experience } from "./data";
 
@@ -37,16 +36,6 @@ const ExperienceSection = () => (
               </span>
             )}
           </div>
-          <ul className="mt-4 list-disc pl-5 space-y-2 text-sm text-white/80 marker:text-accent">
-            {job.points.map((point) => (
-              <li key={point}>{point}</li>
-            ))}
-          </ul>
-          <ul className="mt-4 flex flex-wrap gap-2" aria-label="Technologies used">
-            {job.stack.map((tech) => (
-              <TechPill key={tech}>{tech}</TechPill>
-            ))}
-          </ul>
         </TimelineItem>
       ))}
     </Timeline>

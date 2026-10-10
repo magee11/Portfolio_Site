@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contact form
+
+The contact form sends email through [EmailJS](https://www.emailjs.com/) directly from the browser.
+
+1. Create a free EmailJS account and add an **Email Service** (e.g. Gmail, connected to the inbox that should receive messages).
+2. Create an **Email Template** using these variables:
+   - Subject: `New portfolio message: {{service}}`
+   - Body: `From: {{from_name}} ({{reply_to}}), Phone: {{phone}}` followed by `{{message}}`
+   - Set **Reply To** to `{{reply_to}}` so replies go to the sender.
+3. Copy `.env.example` to `.env.local` and fill in the Service ID, Template ID and Public Key (Account → General).
+4. Restart `npm run dev`. On your hosting provider (e.g. Vercel), add the same three variables in the project's environment settings.
+
+If the keys are missing, the form falls back to opening the visitor's mail app addressed to `mageshmarch@gmail.com`.
