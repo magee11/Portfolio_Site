@@ -27,13 +27,14 @@ export default function Home() {
             <br />
             <span className="text-2xl">Frontend Engineer</span>
             <p className="text-[12px] xl:text-[14px] max-w-[500px] text-white/80 mb-9 mt-2">
-              Experienced React JS developer with 2.5 years of expertise in
-              frontend and backend development. Proficient in React, Next.js,
-              AWS, Node.js, Redux, TypeScript, Java Spring Boot, Python Flask,
-              and SQL. Currently contributing to the Amazon SmartBiz project,
-              optimizing client and customer applications. Skilled in
-              performance optimization, modern technologies, and DSA for
-              efficient problem-solving.
+              Frontend Engineer with 4 years of experience building scalable
+              web applications using React.js, Next.js, TypeScript, Node.js,
+              Python, and AWS. Experienced in designing production-ready
+              applications, optimizing performance, and delivering end-to-end
+              product features. Continuously exploring AI-native engineering
+              practices including LLM workflows, MCP, prompt engineering, AI
+              agent orchestration, and AI-assisted development with Claude,
+              Cursor, ChatGPT, Gemini, and GitHub Copilot.
             </p>
 
             <div className="flex flex-col xl:flex-row items-center gap-8 mb-3">

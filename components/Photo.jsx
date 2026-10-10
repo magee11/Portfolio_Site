@@ -21,20 +21,20 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[320px] h-[320px] xl:w-[470px] xl:h-[470px] p-4 bg-white rounded-full flex items-center justify-center mix-blend-lighten relative z-10"
+          className="w-[320px] h-[320px] xl:w-[350px] xl:h-[350px] p-4 bg-white rounded-full flex items-center justify-center mix-blend-lighten relative z-10"
         >
           <Image
             src={profilePic}
             priority
             style={{ borderRadius: '50%' }}
             quality="100"
-            layout="fill"
+            fill
             alt="Profile Picture"
             className="object-cover"
           />
         </motion.div>
         <motion.svg
-          className="absolute w-[306px] h-[306px] xl:w-[456px] xl:h-[456px] z-0"
+          className="absolute w-[306px] h-[306px] xl:w-[336px] xl:h-[336px] z-0"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"
